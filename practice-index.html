@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML uvod</title>
+
+    <!-- SEO koncepti (ovim se ne bavimo)-->
+    <meta name="description" content="Opis kursa za Junior Web developere">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Jquery">
+    <meta name="author" content="Dalibor Despic">
+</head>
+
+<body>
+
+    <!-- ! Naslov komentara -->
+    <!-- ? Informacija komentar -->
+    <!-- * Primeri komentar -->
+    <!-- TODO - zadatak za vezbu -->
+
+    <!-- * Primeri otvarajuce-zatvarajucih tagova -->
+    <h1>Naslov prvog casa</h1>
+    <p>Neki paragraf</p>
+
+    <!-- * Primesi samozatvarajucih tagova -->
+    <br>
+    <hr>
+    <img src="" alt="">
+    <input type="text">
+
+    <!-- *Primeri html atributa -->
+
+    <hr width="50px">
+    <hr width="50%">
+    <hr color="red">
+
+    <!-- * Primeri charset koriscenja -->
+
+    <h1>Dalibor Despic</h1>
+    <h1>Далибор Деспић</h1>
+    <h1>Dalibor Despić</h1>
+
+    <br>
+    <br>
+
+    <!-- ! HEADING tag -->
+
+    <!-- * Primeri heading tagova -->
+
+    <h1>Neki naslov</h1>
+    <h2>Neki naslov</h2>
+    <h3>Neki naslov</h3>
+    <h4>Neki naslov</h4>
+    <h5>Neki naslov</h5>
+    <h6>Neki naslov</h6>
+
+    <!-- * Primeri paragrafa -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i>Expedita sunt velit</i> error excepturi quisquam eius
+        doloribus atque in alias, eos labore animi perspiciatis voluptatibus natus ullam placeat et cum sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, a praesentium omnis <b>Ullam, a praesentium
+            omnis</b> dolores sit nisi dignissimos suscipit veritatis magni. Vel nemo repellat sed esse excepturi
+        doloremque nostrum, distinctio dignissimos iusto!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In odit impedit similique atque aut ab voluptate quidem
+        adipisci! Ullam sit debitis facilis quis nisi voluptatibus optio, delectus vitae iure accusantium!
+        <del>accusantium</del> dasdss</p>
+
+    <p>
+        <pre>Here’s what happens above in detail:
+
+        The Function Declaration (1) creates the function and puts it into the variable named sayHi.
+        Line (2) copies it into the variable func. Please note again: there are no parentheses after sayHi. If there were, then func = sayHi() would write the result of the call sayHi() into func, not the function sayHi itself.
+        Now the function can be called as both sayHi() and func().
+        Note that we could also have used a Function Expression to declare sayHi, in the first line:</pre>
+    </p>
+
+    <!-- ! Liste -->
+
+    <ol></ol>
+    <ul></ul>
+
+    <!-- * Definition lista -> svaki item ina naslov i opis -->
+
+    <dl>
+        <dt>Home</dt>
+        <dd>Pocetna strana nase veb stranice</dd>
+
+        <dt>Kontakt</dt>
+        <dd>Kontakt strana nase veb stranice</dd>
+    </dl>
+
+    <!-- * Tabela -->
+
+    <table border="1px">
+        <tr>
+            <td>Ime</td>
+            <td>Prezime</td>
+            <td>Godiste</td>
+            <td>Nadomak</td>
+        </tr>
+
+        <tr>
+            <td>Petar</td>
+            <td>Petrovic</td>
+            <td>2000</td>
+            <td>Pera</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <!-- ! FORME -->
+
+    <h1>Primer formi</h1>
+
+    <form action="" name="contact-form">
+        <label for="fullName">Full name:</label>
+        <br>
+        <input type="text" name="fullName" id="fullName">
+
+        <br>
+        <br>
+
+        <label for="language">Your favorite language:</label>
+        <br>
+        <input type="text" name="language" id="lanfuage">
+
+        <br>
+        <br>
+
+        <label for="thoughts">Your thoughts:</label>
+        <br>
+        <textarea name="thoughts" id="thoughts" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+
+        <label for="roel">You are:</label>
+        <br>
+        <input type="radio" name="role" id="teacherRole">Teacher
+        <br>
+        <input type="radio" name="role" id="">Student
+
+        <br>
+        <br>
+
+        <label for="colors">Select your favorite color:</label>
+        <br>
+        <select name="colors" id="colors">
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" >Submit</button>
+
+    </form>
+    
+    
+
+</body>
+
+</html>
